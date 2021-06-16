@@ -1,0 +1,80 @@
+echo $PWD; echo $OLDPWD; cd .; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd ..; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd ../..; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd ../../..; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd ../../../..; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd ../../../../..; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd ../../../../../..; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd ''; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd ' '; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd /; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd /.; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd /./; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd /././././; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd ///; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd ////; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd //////////////////////////////////////////////////////; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd ' /'; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd ' / '; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd '                  /'; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd '                  /              '; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd ' // '; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd ' //home'; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd '     //home    '; pwd; echo $PWD; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd /; echo $PWD; echo $OLDPWD; unset PWD; cd /dev; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd /; echo $PWD; echo $OLDPWD; export PWD=bonjour; cd /dev; echo $OLDPWD
+echo $PWD ; echo $HOME ; echo "$PWD" ; echo '$PWD' ; echo "$HOME"
+echo '$PWD'
+mkdir -m 000 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 001 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 002 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 003 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 004 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 005 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 006 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 007 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 010 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 020 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 030 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 040 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 050 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 060 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 070 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 100 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 200 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 300 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 400 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 500 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 600 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 700 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 755 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 644 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 311 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 111 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 222 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 333 d  ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 0777 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 1000 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 2000 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 3000 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 4000 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 5000 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 6000 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 7000 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 1777 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 2777 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 3777 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 4777 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 5777 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 6777 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 7777 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+mkdir -m 0000 d ; echo $PWD; echo $OLDPWD; cd d; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd /; echo $PWD; echo $OLDPWD; unset PWD; cd /dev; echo $OLDPWD
+echo $PWD; echo $OLDPWD; cd /; echo $PWD; echo $OLDPWD; export PWD=bonjour; cd /dev; echo $OLDPWD
+pwd
+cd ..; pwd
+cd ../..; pwd
+cd ../../..; pwd
+cd /; pwd
+cd $HOME; pwd
+pwd | cat -e

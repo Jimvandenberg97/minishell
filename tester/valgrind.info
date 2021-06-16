@@ -1,0 +1,5 @@
+valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --verbose --show-reachable=no ./minishell
+
+
+by 0x10000378D: exec_arg_parse (command.c:39)
+by 0x10000387F: command_gen (command.c:77)

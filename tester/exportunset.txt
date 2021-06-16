@@ -1,0 +1,73 @@
+export A=a; echo $A
+export A=a B=b C=c; echo $A$B$C
+export A=a B=b C=c D=d E=e F=f G=g H=h I=i J=j K=k L=l M=m N=n O=o P=p Q=q R=r S=s T=t U=u V=v W=w X=x Y=y Z=z; echo $A$B$C$D$E$F$G$H$I$J$K$L$M$N$O$P$Q$R$S$T$U$V$W$X$Y$Z
+export BONJOURJESUIS=a; echo $BONJOURJESUIS
+export bonjourjesuis=a; echo $bonjourjesuis
+export bonjour_je_suis=a; echo $bonjour_je_suis
+export BONJOURJESUIS1=a; echo $BONJOURJESUIS1
+export bO_nJq123o__1ju_je3234sui__a=a; echo $bO_nJq123o__1ju_je3234sui__a
+export a0123456789=a; echo $a0123456789
+export abcdefghijklmnopqrstuvwxyz=a; echo $abcdefghijklmnopqrstuvwxyz
+export ABCDEFGHIJKLMNOPQRSTUVWXYZ=a; echo $ABCDEFGHIJKLMNOPQRSTUVWXYZ
+export __________________________=a; echo $__________________________
+export _bonjour_=a; echo $_bonjour_
+export _=a; echo $_a
+export 1=a; echo 1
+export \B\O\N\ \ \ \ \ \ \ JOURJESUIS=a
+export A='bonjour je suis charles'; echo $A
+export A="bonjour je suis charles"; echo $A
+export A==a; echo $A
+export A===a; echo $A
+export A====a; echo $A
+export A=====a; echo $A
+export A======a; echo $A
+export A=a=a=a=a=a; echo $A
+export A 'asdf ' B ' asdf asdf asd f' ' asdf ' '' 'asdf ' C; echo $A$B$C
+export 'asdf ' B ' asdf asdf asd f' ' asdf ' '' 'asdf ' C; echo $A$B$C
+export A 'asdf ' B ' asdf asdf asd f' ' asdf ' '' 'asdf '; echo $A$B$C
+export A B C; echo $A$B$C
+export BONJOURJESUIS =a
+export BONJOURJESUIS= a
+export BONJOUR\\JESUIS=a
+export BONJOUR\$JESUIS=a
+export BONJOUR\&JESUIS=a
+export 'AH@'=nop
+export 'AH\"'=nop
+export 'AH$'=nop
+export 'AH!'=nop
+export 'AH|'=nop
+export 'AH;'=nop
+export 'AH&'=nop
+export 'AH\\'=nop
+export test1
+export test1=
+export 1test
+export _TEST=DOethetwelmetunderscore
+export ZZZ
+export ZZZ=
+export LS="ls -la" ; ls
+export TEST="evenchecken"
+export | grep -e "PWD="
+export | grep -e "HOME="
+export PATH="test:working:multiplepath:directory1:directory2"; ls -la
+export kip=ei=koe===melk
+export TEST=/Users/maran/Desktop/minishell
+export TEST_$USER=hallo$LOGNAME
+export ZZZ
+export ZZZ=
+export ZZZ=new_value
+export ZZZ======new
+export ZZZ=new YYY=new2 XXX===new3
+export $USER
+export TEST=$USER4857987345
+export 123$USER---
+export MARANSIEMONS
+export MARANSIEMONS=lief
+export =
+export $HULLO=there; echo $HULLO
+export potato=tomato orange=doorhinge
+export po1=yes po2=no; echo $po1 $po2
+unset PATH; ls -la
+unset po1 1op 2 po2; echo $? $po1 $po2 | cat -e
+unset PWD; pwd; echo $PWD
+export PWD=foo; pwd; echo $PWD

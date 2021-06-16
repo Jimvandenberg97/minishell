@@ -1,0 +1,6 @@
+| grep yeet
+echo yeet | grep yeet
+echo lol | grep yeet
+echo yeet | | grep yeet
+export a1=e; export a2=c; export a3=""; $a1"$a2"$a3'h'o hello$hello '$world'
+base64 < ../echo.txt | head -c 100 | cat -e
